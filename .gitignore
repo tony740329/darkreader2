@@ -1,0 +1,23 @@
+# Build files
+#-----------------------------------
+build
+debug
+build.zip
+build-firefox
+debug-firefox
+build-firefox.xpi
+darkreader.js
+
+# Node.js modules
+#-----------------------------------
+node_modules/
+
+# Code coverage reports
+#-----------------------------------
+tests/coverage/
+tests/browser/coverage/
+
+# IDE and editor configs
+#-----------------------------------
+.idea/
+.vscode/
