@@ -1,0 +1,12 @@
+{
+    "extends": "../../src/tsconfig",
+    "compilerOptions": {
+        "module": "es2015",
+        "outDir": "",
+        "types": [
+            "chrome",
+            "jasmine",
+            "offscreencanvas"
+        ]
+    }
+}
