@@ -1,0 +1,18 @@
+{
+    "extends": "../../src/tsconfig",
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "outDir": "",
+        "types": [
+            "chrome",
+            "jest",
+            "offscreencanvas",
+            "puppeteer-core"
+        ],
+        "lib": [
+            "ES6",
+            "dom"
+        ]
+    }
+}

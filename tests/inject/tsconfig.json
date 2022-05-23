@@ -1,0 +1,10 @@
+{
+    "extends": "../../src/tsconfig",
+    "compilerOptions": {
+        "types": [
+            "chrome",
+            "jasmine",
+            "offscreencanvas"
+        ]
+    }
+}
